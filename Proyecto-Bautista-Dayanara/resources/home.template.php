@@ -17,7 +17,7 @@ require __DIR__ . '/partials/header.php';
         <article>
             <h3 class="text-lg font-semibold text-gray-900 hover:text-gray-600">
                 <!-- Uso de Query Params -->
-                <a href="/post?id=<? $post['id']?>"> 
+                <a href="/post?id=<?= $post['id']?>"> 
                    <?= $post ['title']; ?> 
                 </a>
             </h3>
